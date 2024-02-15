@@ -25,7 +25,7 @@ This Python project implements a Rock Paper Scissors game using computer vision 
 - cvzone
 
 ## Usage:
-1. Clone the repository: `git clone https://github.com/assholeonly/rock-paper-scissors-cv.git`
+1. Clone the repository: `git clone https://github.com/NetraGupta1201/Rock-Paper-Scissors-Game.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the game: `python main.py`
 
