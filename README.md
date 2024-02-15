@@ -1,15 +1,6 @@
-# Rock-Paper-Scissors-Game
-This game 
-Please retain the directory structure for smooth functioning of code.
-
-# Installation
-Note: Only windows systems will support automatic installation of necessary modules.
-Please refer to requirements.txt for requirements for different OS, or change the "py -m" to "python3 -m" on lines 9 & 10 of the code.
-
-SUMMARY: 
-The project can be easily run on any windows machine (with admin access as some modules require installation which could be restricted on networked computers). The script automatically starts installation of necessary modules on running it the first time (only for windows). It then displays the user interface made using PyQt5 with the buttons. Upon clicking the game button, the user's camera is opened and the game starts by pressing the Spacebar. The cvzone module then recognises the hand and when the timer hits, it checks the number of fingers open, based upon which the computer checks if the user has shown rock, paper or scissors. Computer makes its choice using the random module and the choice is displayed using the OpenCV module. It compares user input with the computers and then updates the score accordingly, upon pressing the spacebar again, the timer starts. Upon clicking the ASL button, the sign language detection script is run. It detects the sign based on the inputs already stored in the trained_model.p file if it exists.
-
 # Rock Paper Scissors with Computer Vision
+[![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) 
+[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-cvzone%20%7C%20opencv-white?style=for-the-badge&logo=opencv&labelColor=black&color=darkgreen)](https://opencv.org/)
 
 This Python project implements a Rock Paper Scissors game using computer vision techniques. It utilizes the `cvzone` module for hand detection to recognize hand symbols and updates the score accordingly.
 
@@ -20,13 +11,18 @@ This Python project implements a Rock Paper Scissors game using computer vision 
 - Simple and intuitive user interface.
 
 ## Requirements:
-- Python 3.10
+- Python >= 3.10
 - OpenCV
 - cvzone
 
 ## Usage:
+Only windows systems will support automatic installation of necessary modules.
+Please refer to requirements.txt for requirements for different OS.
 1. Clone the repository: `git clone https://github.com/NetraGupta1201/Rock-Paper-Scissors-Game.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the game: `python main.py`
+4. Exit the game: Press the `esc` key to exit the game.
+
+
 
 Feel free to contribute and improve this project!
